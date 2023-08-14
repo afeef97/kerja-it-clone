@@ -9,7 +9,7 @@ const Home = () => {
             <Header />
             <div className="p-4 bg-slate-100">
                 <Hero />
-                <section className="my-14 lg:w-2/3 lg:mx-auto">
+                <section className="my-14 lg:w-2/3 lg:mx-auto max-w-4xl">
                     <div className="mb-2">
                         <a
                             href="/jobs"
