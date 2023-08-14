@@ -9,12 +9,14 @@ const Home = () => {
             <Header />
             <div className="p-4 bg-slate-100">
                 <Hero />
-                <section className="my-14">
-                    <a
-                        href="/jobs"
-                        className="text-xl font-bold">
-                        ⏳ Latest Jobs →
-                    </a>
+                <section className="my-14 lg:w-2/3 lg:mx-auto">
+                    <div className="mb-2">
+                        <a
+                            href="/jobs"
+                            className="text-xl font-bold">
+                            ⏳ Latest Jobs →
+                        </a>
+                    </div>
                     <JobCards />
                 </section>
             </div>

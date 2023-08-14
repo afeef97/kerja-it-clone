@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ jobTitle, company, location, type, date }) => {
     return (
-        <div className="bg-white border border-gray-300 rounded-md my-2 p-4 truncate">
+        <div className="bg-white border border-gray-300 rounded-md p-4 truncate sm:basis-[49%]">
             <a className="text-lg font-semibold">{jobTitle}</a>
             <p className="text-sm">{company}</p>
 

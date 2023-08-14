@@ -4,11 +4,12 @@ import Card from "./Card";
 
 const JobCards = () => {
     return (
-        <div>
+        <div className="flex flex-col sm:flex-row sm:flex-wrap gap-2 justify-center">
             {JOB_DATA.map((element, index) => {
                 return (
                     <Card
                         key={index}
+                        id={element.id}
                         jobTitle={element?.job}
                         company={element?.company}
                         location={`${element.company_state}, ${element?.company_country}`}

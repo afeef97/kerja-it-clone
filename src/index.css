@@ -10,6 +10,7 @@ body {
 
 h1 {
     @apply text-3xl;
+    @apply lg:text-4xl;
     @apply font-semibold;
     @apply leading-10;
 }

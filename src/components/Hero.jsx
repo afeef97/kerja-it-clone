@@ -9,12 +9,16 @@ const Hero = () => {
                 <p>Let employers find you. Or apply to companies directly.</p>
             </div>
 
-            <div className="flex flex-col items-center mt-6 gap-2">
+            <div className="flex flex-col md:flex-row md:justify-center items-center mt-6 gap-2">
                 {/* TODO: Add button handlers */}
                 <Button variation="solid">
                     🎯 I want companies to find me
                 </Button>
-                <Button variation="outline">🔍 Search Jobs</Button>
+                <Button
+                    variation="outline"
+                    customStyle="md:w-40">
+                    🔍 Search Jobs
+                </Button>
             </div>
         </section>
     );
