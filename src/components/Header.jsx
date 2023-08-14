@@ -4,12 +4,12 @@ import Navigation from "./Navigation";
 
 const Header = () => {
     return (
-        <div className="flex justify-between items-center p-4">
-            <div>
+        <div className="flex justify-between lg:justify-center items-center lg:gap-32 p-4">
+            <div className="flex-shrink max-w-[150px]">
                 <img
                     src={logo}
                     alt="Kerja IT logo"
-                    className="w-[150px]"
+                    className=""
                 />
             </div>
             <div>
