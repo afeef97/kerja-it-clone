@@ -5,7 +5,7 @@ import JobCards from "../components/JobCards";
 const Home = () => {
     return (
         <div>
-            <div className="p-4">
+            <div className="p-4 bg-slate-100">
                 <Hero />
                 <section className="my-14">
                     <a

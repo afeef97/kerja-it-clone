@@ -9,7 +9,7 @@ const Button = ({ variation = "solid", children, ...buttonHandlers }) => {
             break;
         case "outline":
             buttonStyle =
-                "bg-white text-base text-black leading-9 font-medium border rounded-md w-[277px] px-4";
+                "text-base text-black leading-9 font-medium border rounded-md w-[277px] px-4";
             break;
         case "ghost":
             buttonStyle =
