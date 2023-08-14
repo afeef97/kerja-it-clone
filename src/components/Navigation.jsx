@@ -10,7 +10,7 @@ const Navigation = () => {
             {/* TODO: Add navigation functionality */}
             <Button
                 variation="ghost"
-                customStyle="w-full text-3xl md:hidden py-1 px-2">
+                customStyle="w-full !text-3xl md:hidden py-1 px-2">
                 <i className="bi bi-list"></i>
             </Button>
 

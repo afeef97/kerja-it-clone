@@ -5,23 +5,27 @@ const Button = ({ variation, customStyle, children, ...buttonHandlers }) => {
     switch (variation) {
         case "solid":
             buttonStyle =
-                customStyle +
-                " bg-black text-base text-white leading-9 font-bold rounded-md w-[277px]";
+                "bg-black text-base text-white leading-9 font-bold rounded-md w-[277px]" +
+                " " +
+                customStyle;
             break;
         case "outline":
             buttonStyle =
-                customStyle +
-                " text-base text-black leading-9 font-bold border rounded-md w-[277px]";
+                "text-base text-black leading-9 font-bold border rounded-md w-[277px]" +
+                " " +
+                customStyle;
             break;
         case "ghost":
             buttonStyle =
-                customStyle +
-                " text-base text-black leading-9 font-bold rounded w-[277px]";
+                "text-base text-black leading-9 font-bold rounded w-[277px]" +
+                " " +
+                customStyle;
             break;
         default:
             buttonStyle =
-                customStyle +
-                " text-base text-black leading-9 font-bold rounded w-[277px]";
+                "text-base text-black leading-9 font-bold rounded w-[277px]" +
+                " " +
+                customStyle;
     }
 
     // TODO: Add button handlers
