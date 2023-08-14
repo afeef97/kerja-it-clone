@@ -1,3 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply font-inconsolata;
+}
+
+h1 {
+    @apply text-3xl;
+    @apply font-semibold;
+    @apply leading-10;
+}
+
+p {
+    @apply text-gray-600;
+    @apply text-base;
+}
+
+button {
+    text-wrap: nowrap;
+}
