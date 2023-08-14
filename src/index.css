@@ -15,6 +15,11 @@ h1 {
     @apply leading-10;
 }
 
+h3 {
+    @apply text-lg;
+    @apply font-bold;
+}
+
 p {
     @apply text-gray-600;
     @apply text-base;
