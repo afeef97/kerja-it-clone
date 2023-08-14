@@ -1,20 +1,27 @@
 import React from "react";
 
-const Button = ({ variation = "solid", children, ...buttonHandlers }) => {
+const Button = ({ variation, customStyle, children, ...buttonHandlers }) => {
     let buttonStyle;
     switch (variation) {
         case "solid":
             buttonStyle =
-                "bg-black text-base text-white leading-9 font-medium rounded-md w-[277px] px-4";
+                customStyle +
+                " bg-black text-base text-white leading-9 font-bold rounded-md w-[277px]";
             break;
         case "outline":
             buttonStyle =
-                "text-base text-black leading-9 font-medium border rounded-md w-[277px] px-4";
+                customStyle +
+                " text-base text-black leading-9 font-bold border rounded-md w-[277px]";
             break;
         case "ghost":
             buttonStyle =
-                "text-base text-black leading-9 font-medium rounded w-[277px] px-4";
+                customStyle +
+                " text-base text-black leading-9 font-bold rounded w-[277px]";
             break;
+        default:
+            buttonStyle =
+                customStyle +
+                " text-base text-black leading-9 font-bold rounded w-[277px]";
     }
 
     // TODO: Add button handlers

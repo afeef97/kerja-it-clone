@@ -3,7 +3,7 @@ import Button from "./shared/Buttons";
 
 const Hero = () => {
     return (
-        <section className="text-center">
+        <section className="text-center mt-4">
             <div>
                 <h1>Find Tech Jobs In Malaysia MY</h1>
                 <p>Let employers find you. Or apply to companies directly.</p>
